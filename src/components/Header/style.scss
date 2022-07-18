@@ -1,17 +1,18 @@
-.header-container {
+.header-container{
+
   position: relative;
 
-  .header-menu {
+  .header-menu{
     position: absolute;
     left: 0;
     top: 100px;
 
-    letter-spacing: 10px;
+    letter-spacing: 1px;
     font-family: 'Syncopate', sans-serif;
     color: #626262;
     font-weight: 600;
     text-transform: uppercase;
-
+    
     li {
       margin: 10px 0;
     }
@@ -24,6 +25,13 @@
 
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 600;
+   
+   
   }
 }
-
+.lineParent{
+  overflow: hidden;
+  .lineChildren{
+    transform: translate(0, 500px);
+  }
+}
