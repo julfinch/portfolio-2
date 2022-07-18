@@ -1,6 +1,7 @@
 .header-container{
 
   position: relative;
+  overflow-y: hidden;
 
   .header-menu{
     position: absolute;
@@ -34,4 +35,8 @@
   .lineChildren{
     transform: translate(0, 500px);
   }
+}
+
+.data-scroll-container {
+  overflow-y: hidden;
 }
