@@ -68,6 +68,7 @@ const Home = () => {
           id="main-container"
           data-scroll-container
           ref={ref}
+          style={{overflowY:"hidden"}}
         >
           <Navbar />
           <Header />

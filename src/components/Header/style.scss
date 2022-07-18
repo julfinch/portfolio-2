@@ -5,28 +5,28 @@
   .header-menu{
     position: absolute;
     left: 0;
-    top: 100px;
-
+    top: 0;
     letter-spacing: 1px;
     font-family: 'Syncopate', sans-serif;
     color: #626262;
     font-weight: 600;
     text-transform: uppercase;
+    padding-left: 0;
     
     li {
       margin: 10px 0;
+      list-style: none;
     }
   }
 
-  h1 {
-    font-size: 20vw;
+  #header-text {
+    font-size: 16vw;
     text-transform: uppercase;
     text-align: center;
-
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 600;
-   
-   
+    margin-top: 90px;
+    line-height: 80%;
   }
 }
 .lineParent{
